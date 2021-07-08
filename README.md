@@ -31,7 +31,7 @@ La idea, es tener un accceso directo a varias secciones, así como:
 * Descargas             = Para descargar los documentos que se utilizaban en la operación diaria.
 * Comunas               = Muestra todas las comunas de chile.
 * Datos transferencias  = Genera un pdf, para entregar a los clientes cuando pedían transferir.
-* Rotativa de urgencia  = Implementación de fullcalendar, muestra las rotaciones y los turnos de los funcionarios.
+* Rotativa de urgencia  = Calendario, muestra las rotaciones y los turnos de los funcionarios.
 (datos para ver desde ago - 2020 a ene - 2021)
 * Cortes de horas Extra = Mos cortes de H.E., para calcular lo que iba a sacar mes a mes.
 ```
