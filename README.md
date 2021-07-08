@@ -1,39 +1,40 @@
-## Sistema de información Administrativa para funcionarios de Clinica (Servicios de Urgencia y Admisión)
-Este Sistemam fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
+# Sistema de información Administrativa para funcionarios de Clinica (Servicios de Urgencia y Admisión)
+Este Sistema, fue una idea que se me ocurrió para acortar los tiempos en mi ex trabajo, y fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
+
 Está escrito en php, con ayuda del framework LARAVEL, con un poco de JS, CSS mediante Bootstrap, y un par de templates bajadas de internet.
-Los cambios que se hacían, eran en "producción", pero fue un sistema sólo para uso interno de algunos funcionarios.
+Los cambios que le hacía, eran en "producción", porque era sólo para uso interno de algunos funcionarios, a quienes yo daba acceso.
 
 ## Construido con 🛠️
 El sistema, fue escrito con las siguientes tecnologías:
 
-* [Php] - Lenguaje principal
-* [Laravel] Framework php
-* [Html](#) - Usado para generar RSS
-- **[PHP](#)** alguna cosa
-- **[PHP](#)** otra cosa
+* [PHP]
+* [LARAVEL]
+* [HTML]
+* [CSS]
+* [JS]
+* [JQUERY]
 
-
-
-En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros.
+## Descripción del Sistema 📄
+En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros, y una parte de descarga de archivos.
 
 La idea, era tener un accceso directo a varias partes, así como:
 
-**1 -  Valores Imageonología = Tal cual como lo dice el nombre, indica los valores de las prestaciones, con un buscador basado en Datatables.**
-**2 -  Valores Laboratorio   = Lo Mismo, pero con los valores de exámenes de laboratorio**  
-**3 -  Valores Laboratorio   = **  
-**4 -  Valores Laboratorio   = **  
-**5 -  Valores Laboratorio   = **  
-**6 -  Valores Laboratorio   = **  
-**7 -  Valores Laboratorio   = **  
-**8 -  Valores Laboratorio   = **  
-**9 -  Valores Laboratorio   = **  
-**10 - Valores Laboratorio   = **  
-**11 - Valores Laboratorio   = **  
-**12 - Valores Laboratorio   = **  
-**13 - Valores Laboratorio   = **  
-**14 - Valores Laboratorio   = **  
-
-
+- **[Valores Imageonología](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los valores de todas las prestaciones de imageonología.
+- **[Valores Imageonología](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los valores de todas las prestaciones de toma de muestras.
+- **[Valores dia cama     ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los valores de los día cama para hospitalizados.
+- **[Planes Cruz Blanca   ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los planes de cruz blanca, para saber si tenían convenio con esta Clínica.
+- **[Bajar plan C. Blanca ](#)** Para poder descargar cualquier Plan, teniendo el código que se asigna a los planes, descarga un PDF.
+- **[Códigos Integrales   ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
+- **[Doctores             ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, muestra los datos de los distintos doctores. 
+- **[Seguros              ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, da los accesos a descarga de los pdf con formularios de aseguradoras. 
+- **[Anexos               ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, Los anexos del lugar, divididos en torre, piso y unidades. 
+- **[Descargas            ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, para descargar los distintos documentos que se utilizaban en la operación diaria.
+- **[Comunas              ](#)** Una tabla alimentada con datos mysql, ayudada con Datatables.net, la colección de comunas y ciudades de chile.
+- **[Datos transferencias ](#)** Genera un pdf, para poder entregar a los clientes, cuando pedían los datos para transferir y pagar sus cuentas.
+- **[Rotativa de urgencia ](#)** Una implementación de fullcalendar(https://fullcalendar.io/), para ir viendo las rotaciones y los turnos de los funcionarios.
+- **[Cortes de horas Extra](#)** Una tabla alimentada con datos mysql, que indicaba los cortes de H.E., para calcular lo que iba a sacar mes a mes.
+ 
+  
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
