@@ -19,21 +19,21 @@ En esencia, el sistema solamente es una colección de CRUDs, que permitía acced
 
 La idea, era tener un accceso directo a varias partes, así como:
 
-Valores Imageonología = Tabla mysql, muestra los valores de las prestaciones de imageonología.
-Valores Laboratorio   = Tabla mysql, muestra los valores de las prestaciones de toma de muestras.
-Valores dia cama      = Tabla mysql, muestra los valores de los día cama para hospitalizados.
-Planes Cruz Blanca    = Tabla mysql, muestra los planes de cruz blanca, para saber si tenían convenio con esta Clínica.
-Bajar plan C. Blanca  = Para poder descargar cualquier Plan, teniendo el código que se asigna a los planes, descarga un PDF.
-Códigos Integrales    = Tabla mysql, muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
-Doctores              = Tabla mysql, muestra los datos de los distintos doctores. 
-Seguros               = Tabla mysql, da los accesos a descarga de los pdf con formularios de aseguradoras. 
-Anexos                = Tabla mysql, Los anexos del lugar, divididos en torre, piso y unidades. 
-Descargas             = Tabla mysql, para descargar los distintos documentos que se utilizaban en la operación diaria.
-Comunas               = Tabla mysql, muestra todas las comunas de chile.
-Datos transferencias  = Genera un pdf, para poder entregar a los clientes, cuando pedían los datos para transferir y pagar sus cuentas.
-Rotativa de urgencia  = Implementación de fullcalendar https://fullcalendar.io/, para ir viendo las rotaciones y los turnos de los funcionarios.
+* Valores Imageonología = Tabla mysql, muestra los valores de las prestaciones de imageonología.
+* Valores Laboratorio   = Tabla mysql, muestra los valores de las prestaciones de toma de muestras.
+* Valores dia cama      = Tabla mysql, muestra los valores de los día cama para hospitalizados.
+* Planes Cruz Blanca    = Tabla mysql, muestra los planes de cruz blanca, para saber si tenían convenio con esta Clínica.
+* Bajar plan C. Blanca  = Para poder descargar cualquier Plan, teniendo el código que se asigna a los planes, descarga un PDF.
+* Códigos Integrales    = Tabla mysql, muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
+* Doctores              = Tabla mysql, muestra los datos de los distintos doctores. 
+* Seguros               = Tabla mysql, da los accesos a descarga de los pdf con formularios de aseguradoras. 
+* Anexos                = Tabla mysql, Los anexos del lugar, divididos en torre, piso y unidades. 
+* Descargas             = Tabla mysql, para descargar los distintos documentos que se utilizaban en la operación diaria.
+* Comunas               = Tabla mysql, muestra todas las comunas de chile.
+* Datos transferencias  = Genera un pdf, para poder entregar a los clientes, cuando pedían los datos para transferir y pagar sus cuentas.
+* Rotativa de urgencia  = Implementación de fullcalendar https://fullcalendar.io/, para ir viendo las rotaciones y los turnos de los funcionarios.
 (datos para ver desde ago - 2020 a ene - 2021)
-Cortes de horas Extra = Tabla mysql, los cortes de H.E., para calcular lo que iba a sacar mes a mes.
+* Cortes de horas Extra = Tabla mysql, los cortes de H.E., para calcular lo que iba a sacar mes a mes.
 
 ## Partes del sistema funcionando 📦
 
