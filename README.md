@@ -18,7 +18,7 @@ El sistema, fue escrito con las siguientes tecnologías:
 En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros, y una parte de descarga de archivos.
 
 La idea, era tener un accceso directo a varias partes, así como:
-
+```
 - **[Valores Imageonología](#)** Tabla mysql, + Datatables.net, muestra los valores de todas las prestaciones de imageonología.
 - **[Valores Imageonología](#)** Tabla mysql, + Datatables.net, muestra los valores de todas las prestaciones de toma de muestras.
 - **[Valores dia cama     ](#)** Tabla mysql, + Datatables.net, muestra los valores de los día cama para hospitalizados.
@@ -31,9 +31,10 @@ La idea, era tener un accceso directo a varias partes, así como:
 - **[Descargas            ](#)** Tabla mysql, + Datatables.net, para descargar los distintos documentos que se utilizaban en la operación diaria.
 - **[Comunas              ](#)** Tabla mysql, + Datatables.net, la colección de comunas y ciudades de chile.
 - **[Datos transferencias ](#)** Genera un pdf, para poder entregar a los clientes, cuando pedían los datos para transferir y pagar sus cuentas.
-- **[Rotativa de urgencia ](#)** Implementación de fullcalendar(https://fullcalendar.io/), para ir viendo las rotaciones y los turnos de los funcionarios.
+- **[Rotativa de urgencia ](#)** Implementación de fullcalendar https://fullcalendar.io/, para ir viendo las rotaciones y los turnos de los funcionarios.
 - **[Cortes de horas Extra](#)** Tabla mysql, + los cortes de H.E., para calcular lo que iba a sacar mes a mes.
- 
+ ```
+
   
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
