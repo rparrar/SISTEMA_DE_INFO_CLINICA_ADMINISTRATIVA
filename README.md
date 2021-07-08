@@ -17,7 +17,7 @@ El sistema, fue escrito con las siguientes tecnologías:
 ## Descripción del Sistema 📄
 En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros, y una parte de descarga de archivos.
 
-La idea, era tener un accceso directo a varias partes, así como:
+La idea, es tener un accceso directo a varias secciones, así como:
 
 * Valores Imageonología = Tabla mysql, muestra los valores de las prestaciones de imageonología.
 * Valores Laboratorio   = Tabla mysql, muestra los valores de las prestaciones de toma de muestras.
@@ -35,50 +35,55 @@ La idea, era tener un accceso directo a varias partes, así como:
 (datos para ver desde ago - 2020 a ene - 2021)
 * Cortes de horas Extra = Tabla mysql, los cortes de H.E., para calcular lo que iba a sacar mes a mes.
 
-## Partes del sistema funcionando 📦
+## Secciones y "extras" del sistema funcionando en el código 📦
+
+*
+*
+*
 
 
 
 ## Partes del sistema faltantes por codificar ✒️
 
 El proyecto quedó inconcluso, debido a que ya no trabajo en ese lugar, por tanto obviamente no seguí con el desarrollo.
-Quedaron pendientes la parte de los CRUD completos de todas estas zonas, por que agregaba los datos directamente en phpmyadmin, no por medio de formularios.
-Y en los casos donde la información era más grande, mediante SQL a secas.
+Quedaron pendientes la parte de los CRUD completos de todas estas zonas, debido a que agregaba los registros a la base de datos directamente en phpmyadmin, no por medio de formularios.
+Y en los casos donde la información era más grande, mediante instrucciones SQL a secas.
 
 ## Licencia 📄
 
-Puedes ocupar este código y probarlo, cambiarlo o potenciarlo, a tu comodidad, a mi me sirvió para aprender de manera autodidacta, son con san google y san stackoverflow entre otros.
+Puedes ocupar este código y probarlo, cambiarlo o potenciarlo, a tu comodidad, a mi me sirvió para aprender de manera autodidacta, con san google y san stackoverflow entre otros.
 
 ## Si quieres probar este sistema ⚙️
 
 Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber seguir los siguientes pasos:
 
 
-```
 1 - Clonar o descargar este repositorio.
+```
     - $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
 ```
-```
 2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
+```
     - composer install
     - npm install 
     - npm run dev
 ```
-```
 3 - Crear archivo .env, puedes basarte en el .env.example
-    - configurar las variables de inicio (base de datos, usuario, password).
 ```
+    - configurar las variables de inicio (base de datos, usuario, password).
 ```
 4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
 ```
 ```
 5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
     Se importarán 2 usuarios:
+```
     - admin   => admin@admin.com => clave password, perfil admin.
     - usuario => user@user.com   => clave password",perfil usuario.
 ```
+6 - Nuevamente en la carpeta del proyecto
 ```
-6 - Nuevamente en la raiz del proyecto
     php artisan key:generate => para generar llave de encriptación.
     php artisan serve => para desplegar servidor de pruebas.
 ```
+Todos estos pasos los acabo de probar y me funcionaron siguiendo este mismo "tutorial".
