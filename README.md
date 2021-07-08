@@ -3,8 +3,11 @@ Este Sistemam fue escrito en mis tiempos libres, mediante el editor de archivos 
 Está escrito en php, con ayuda del framework LARAVEL, con un poco de JS, CSS mediante Bootstrap, y un par de templates bajadas de internet.
 Los cambios que se hacían, eran en "producción", pero fue un sistema sólo para uso interno de algunos funcionarios.
 
-## El sistema, que es?
+## Construido con 🛠️
+El sistema, fue escrito con las siguientes tecnologías:
 
+* [Php] - Lenguaje principal
+* [Laravel] Framework php
 En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros.
 
 La idea, era tener un accceso directo a varias partes, así como:
