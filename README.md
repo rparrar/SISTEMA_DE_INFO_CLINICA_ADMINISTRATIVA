@@ -8,7 +8,7 @@ Los cambios que le hacía, eran en "producción", porque era sólo para uso inte
 El sistema, fue escrito con las siguientes tecnologías:
 
 * [PHP]
-* [LARAVEL]
+* [LARAVEL (7.28.0)]
 * [HTML]
 * [CSS]
 * [JS]
@@ -77,4 +77,9 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber segu
     - usuario => user@user.com   => clave 123456",perfil usuario.
     el user "usuario" se encontrará bloqueado al comienzo puedes probar logueando como el, 
     y luego cambiar su parametro "activo" por SI en phpmyadmin.
+```
+```
+6 - Nuevamente en la raiz del proyecto
+    php artisan key:generate => para generar llave de encriptación.
+    php artisan serve => para desplegar servidor de pruebas.
 ```

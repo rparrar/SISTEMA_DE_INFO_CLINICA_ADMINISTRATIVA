@@ -17339,8 +17339,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `tema`, `avatar`, `session_id`, `user`, `name`, `sexo`, `email`, `telefono`, `area`, `password`, `permisos`, `activo`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 2,  NULL, 'HHmfjHfrXElBKkyWnEnsVIHDxorgerTPQA2JBGLK', 'ADMIN', 'ADMIN SISTEMA', 'M', 'admin@admin.com', '223405600', 'GITHUB', '$2y$10$G/KA0i.l/5DK6FTbwDVk4eclf7I2F8N7jsEtSZvCoDahxEfAWkeYW', 'ADMINISTRADOR', 'SI', NULL, NULL, NULL',
-(45, 1, NULL, 'mCNmBCXFY5HS5IKEP0PHmth3jG0tNaS0CdkXAo3t', 'USUARIO', 'USER SISTEMA', 'M', 'user@user.com', '972884416', 'GITHUB', '$2y$10$TcGZGPmEtDz.Qu32HCzA/e0RlX8Q/pk4M6n1elXSBUkWkBy8vAK..', 'USUARIO', 'NO', NULL,NULL, NULL';
+(1, 2,  NULL, NULL , 'ADMIN', 'ADMIN SISTEMA', 'M', 'admin@admin.com', '223405600', 'GITHUB', '$2y$10$pLnoFsS78yRA4w3UFmPNgeI6dvTQwVSggqGKmCxDD6o9vkOj47X1q', 'ADMINISTRADOR', 'SI', NULL,NULL,NULL),
+(45, 1, NULL, NULL , 'USUARIO', 'USER SISTEMA', 'M', 'user@user.com', '972884416', 'GITHUB', '$2y$10$pLnoFsS78yRA4w3UFmPNgeI6dvTQwVSggqGKmCxDD6o9vkOj47X1q', 'USUARIO', 'NO', NULL,NULL, NULL);
 
 --
 -- Índices para tablas volcadas
@@ -17395,12 +17395,6 @@ ALTER TABLE `doctores`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `pagares`
---
-ALTER TABLE `pagares`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indices de la tabla `password_resets`
 --
 ALTER TABLE `password_resets`
@@ -17428,12 +17422,6 @@ ALTER TABLE `prestaciones_labo`
 -- Indices de la tabla `programas`
 --
 ALTER TABLE `programas`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `seguroescolar`
---
-ALTER TABLE `seguroescolar`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -17508,12 +17496,6 @@ ALTER TABLE `doctores`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14160;
 
 --
--- AUTO_INCREMENT de la tabla `pagares`
---
-ALTER TABLE `pagares`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT de la tabla `password_resets`
 --
 ALTER TABLE `password_resets`
@@ -17538,12 +17520,6 @@ ALTER TABLE `programas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT de la tabla `seguroescolar`
---
-ALTER TABLE `seguroescolar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1430;
-
---
 -- AUTO_INCREMENT de la tabla `seguros`
 --
 ALTER TABLE `seguros`
@@ -17561,7 +17537,3 @@ ALTER TABLE `turnos`
 ALTER TABLE `users`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
