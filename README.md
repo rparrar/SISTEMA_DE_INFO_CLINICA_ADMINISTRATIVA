@@ -45,12 +45,26 @@ Y en los casos donde la información era más grande, mediante SQL a secas.
 
 Si quieres probar este sistema, y verlo como una base, o potenciarlo, tienes que seguir los siguientes pasos:
 
-1-
+
 ```
-Clonar este repositorio
+1 - Clonar este repositorio.
+$ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
+
+
+```
+```
+2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
+composer install
+npm install 
+npm run dev
+```
+3 - Copiar archivo .env.example y dejar un nuevo archivo .env
+
+```
+4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
+
+5 - Importar en tu base de datos, el contenido de prueba que viene en el archivo tablas.sql (en raiz del proyecto).
 ```
 
-2-
-```
 
 ```
