@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+.fondo-clinica
+{
+    background-image:url('../img/fondo.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:#a1d4ff;
+}
+
+.cuadro-login
+{
+    position:fixed;
+    left:0;
+    top:200px;
+}
+
+.img-portada
+{
+    max-width:50%;
+}
+.img-perfil
+{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.espacio-abajo
+{
+    margin-bottom:5px;
+}
+.fuente-secciones
+{
+    font-family: 'Comfortaa', cursive;
+}
+.icono-datos-personales
+{
+    vertical-align:middle;
+    font-size:1em;
+    color:#3097d1;
+}
+.datos-personales
+{
+    vertical-align:middle !important;
+    font-size:1em;
+    color:#3097d1;
+
+}
+.tdcentradamedio
+{
+    vertical-align:middle !important;
+    font-size:1em;
+    color:#3097d1;
+}
+.firma
+{
+    font-family: 'Kristi', cursive;
+    color: #06288c;
+    font-size: 2em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: right;
+}
+.mayusculas
+{
+    text-transform:uppercase;
+}
+
+.menu-admin
+{
+    margin : -10px auto;
+}
+
+.alert-rotativas
+{
+    padding: 0.2rem;
+}
+
+ul.pagination
+{
+    justify-content: center;
+}
+
+.formulario-eliminar
+{
+    background-color: transparent;
+}
