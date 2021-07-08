@@ -22,7 +22,7 @@ La idea, es tener un accceso directo a varias secciones, así como:
 * Valores Imageonología = Muestra los valores de las prestaciones de imageonología.
 * Valores Laboratorio   = Muestra los valores de las prestaciones de toma de muestras.
 * Valores dia cama      = Muestra los valores de los día cama para hospitalizados.
-* Planes Cruz Blanca    = Muestra los planes de cruz blanca, para saber si tenían convenio con esta Clínica.
+* Planes Cruz Blanca    = Muestra planes de cruz blanca, para saber si tenían convenio con la Clínica.
 * Bajar plan C. Blanca  = Para poder descargar planes, teniendo el código, descarga un PDF.
 * Códigos Integrales    = Muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
 * Doctores              = Muestra los datos de los distintos doctores. 
