@@ -37,9 +37,9 @@ La idea, es tener un accceso directo a varias secciones, así como:
 
 ## Secciones y "extras" del sistema funcionando en el código 📦
 
-*
-*
-*
+* Auditorias
+* valores
+* pdf
 
 
 
@@ -60,26 +60,24 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber segu
 
 1 - Clonar o descargar este repositorio.
 ```
-    - $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
+    $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
 ```
 2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
 ```
-    - composer install
-    - npm install 
-    - npm run dev
+    composer install
+    npm install 
+    npm run dev
 ```
 3 - Crear archivo .env, puedes basarte en el .env.example
 ```
-    - configurar las variables de inicio (base de datos, usuario, password).
+    configurar las variables de inicio (base de datos, usuario, password).
 ```
 4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
-```
-```
 5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
     Se importarán 2 usuarios:
 ```
-    - admin   => admin@admin.com => clave password, perfil admin.
-    - usuario => user@user.com   => clave password",perfil usuario.
+    admin   => admin@admin.com => clave password, perfil admin.
+    usuario => user@user.com   => clave password",perfil usuario.
 ```
 6 - Nuevamente en la carpeta del proyecto
 ```
