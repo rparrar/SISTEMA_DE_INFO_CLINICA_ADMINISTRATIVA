@@ -18,7 +18,7 @@ El sistema, fue escrito con las siguientes tecnologías:
 En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros, y una parte de descarga de archivos.
 
 La idea, era tener un accceso directo a varias partes, así como:
-```
+
 Valores Imageonología = Tabla mysql, muestra los valores de las prestaciones de imageonología.
 Valores Laboratorio   = Tabla mysql, muestra los valores de las prestaciones de toma de muestras.
 Valores dia cama      = Tabla mysql, muestra los valores de los día cama para hospitalizados.
@@ -34,7 +34,7 @@ Datos transferencias  = Genera un pdf, para poder entregar a los clientes, cuand
 Rotativa de urgencia  = Implementación de fullcalendar https://fullcalendar.io/, para ir viendo las rotaciones y los turnos de los funcionarios.
 (datos para ver desde ago - 2020 a ene - 2021)
 Cortes de horas Extra = Tabla mysql, los cortes de H.E., para calcular lo que iba a sacar mes a mes.
- ```
+
 ## Partes del sistema funcionando 📦
 
 
