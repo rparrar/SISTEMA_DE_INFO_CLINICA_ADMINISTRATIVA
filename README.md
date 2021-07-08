@@ -58,30 +58,31 @@ Puedes ocupar este código y probarlo, cambiarlo o potenciarlo, a tu comodidad, 
 Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber seguir los siguientes pasos:
 
 
-*1 - Clonar o descargar este repositorio.
+
+* 1 - Clonar o descargar este repositorio.
 ```
     $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
 ```
-*2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
+* 2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
 ```
     composer install
     npm install 
     npm run dev
 ```
-*3 - Crear archivo .env, puedes basarte en el .env.example
+* 3 - Crear archivo .env, puedes basarte en el .env.example
 ```
     configurar las variables de inicio (base de datos, usuario, password).
 ```
-*4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
-*5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
+* 4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
+* 5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
     Se importarán 2 usuarios:
 ```
     admin   => admin@admin.com => clave password, perfil admin.
     usuario => user@user.com   => clave password",perfil usuario.
 ```
-*6 - Nuevamente en la carpeta del proyecto
+* 6 - Nuevamente en la carpeta del proyecto
 ```
     php artisan key:generate => para generar llave de encriptación.
     php artisan serve => para desplegar servidor de pruebas.
 ```
-**Todos estos pasos los acabo de probar y me funcionaron siguiendo este mismo "tutorial".
+** Todos estos pasos los acabo de probar y me funcionaron siguiendo este mismo "tutorial".
