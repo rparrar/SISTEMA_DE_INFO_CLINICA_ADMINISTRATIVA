@@ -1,4 +1,4 @@
-# Sistema de información Administrativa para funcionarios de Clinica (Servicios de Urgencia y Admisión)
+# Sistema de información para Clínica (Servicios de Urgencia y Admisión)
 Este Sistema, fue una idea que se me ocurrió para acortar los tiempos en mi ex trabajo, y fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
 
 Está escrito en php, con ayuda del framework LARAVEL, con un poco de JS, CSS mediante Bootstrap, y un par de templates bajadas de internet.
@@ -49,22 +49,11 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, tienes que
 ```
 1 - Clonar este repositorio.
 $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
-
-
-```
-```
 2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
-composer install
-npm install 
-npm run dev
-```
+    - composer install
+    - npm install 
+    - npm run dev
 3 - Copiar archivo .env.example y dejar un nuevo archivo .env
-
-```
 4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
-
-5 - Importar en tu base de datos, el contenido de prueba que viene en el archivo tablas.sql (en raiz del proyecto).
-```
-
-
+5 - Importar en tu base de datos, el contenido de archivo tablas.sql (en raiz del proyecto).
 ```
