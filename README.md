@@ -9,20 +9,20 @@ En esencia, el sistema solamente es una colección de CRUDs, que permitía acced
 
 La idea, era tener un accceso directo a varias partes, así como:
 
-1 - **Valores Imageonología** = Tal cual como lo dice el nombre, indica los valores de las prestaciones, con un buscador basado en Datatables.
-2 - **Valores Laboratorio** = 
-3 - **Valores Laboratorio** = 
-4 - **Valores Laboratorio** = 
-5 - **Valores Laboratorio** = 
-6 - **Valores Laboratorio** = 
-7 - **Valores Laboratorio** = 
-8 - **Valores Laboratorio** = 
-9 - **Valores Laboratorio** = 
-10 - **Valores Laboratorio** = 
-11 - **Valores Laboratorio** = 
-12 - **Valores Laboratorio** = 
-13 - **Valores Laboratorio** = 
-14 - **Valores Laboratorio** = 
+**1 -  Valores Imageonología** = Tal cual como lo dice el nombre, indica los valores de las prestaciones, con un buscador basado en Datatables.
+**2 -  Valores Laboratorio** = 
+**3 -  Valores Laboratorio** = 
+**4 -  Valores Laboratorio** = 
+**5 -  Valores Laboratorio** = 
+**6 -  Valores Laboratorio** = 
+**7 -  Valores Laboratorio** = 
+**8 -  Valores Laboratorio** = 
+**9 -  Valores Laboratorio** = 
+**10 - Valores Laboratorio** = 
+**11 - Valores Laboratorio** = 
+**12 - Valores Laboratorio** = 
+**13 - Valores Laboratorio** = 
+**14 - Valores Laboratorio** = 
 
 
 
