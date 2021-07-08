@@ -72,7 +72,9 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber segu
 ```
 ```
 5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
-    Se importarán 2 usuarios, 1  principal = admin = admin@admin.com = clave = 123456, con permisos de admin
-    y uno "usuario" user@user.com CLAVE = 123456", se importa por el info.sql
-    el  usuario "usuario" se encontrará bloqueado sin acceso, puedes probar logueando como el, y luego cambiar su parametro "activo" por SI en phpmyadmin.
+    Se importarán 2 usuarios:
+    - admin   => admin@admin.com => clave 123456, perfil admin.
+    - usuario => user@user.com   => clave 123456",perfil usuario.
+    el user "usuario" se encontrará bloqueado al comienzo puedes probar logueando como el, 
+    y luego cambiar su parametro "activo" por SI en phpmyadmin.
 ```
