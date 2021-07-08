@@ -17340,7 +17340,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `tema`, `avatar`, `session_id`, `user`, `name`, `sexo`, `email`, `telefono`, `area`, `password`, `permisos`, `activo`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 2,  NULL, NULL , 'ADMIN', 'ADMIN SISTEMA', 'M', 'admin@admin.com', '223405600', 'GITHUB', '$2y$10$pLnoFsS78yRA4w3UFmPNgeI6dvTQwVSggqGKmCxDD6o9vkOj47X1q', 'ADMINISTRADOR', 'SI', NULL,NULL,NULL),
-(45, 1, NULL, NULL , 'USUARIO', 'USER SISTEMA', 'M', 'user@user.com', '972884416', 'GITHUB', '$2y$10$pLnoFsS78yRA4w3UFmPNgeI6dvTQwVSggqGKmCxDD6o9vkOj47X1q', 'USUARIO', 'NO', NULL,NULL, NULL);
+(45, 1, NULL, NULL , 'USUARIO', 'USER SISTEMA', 'M', 'user@user.com', '972884416', 'GITHUB', '$2y$10$pLnoFsS78yRA4w3UFmPNgeI6dvTQwVSggqGKmCxDD6o9vkOj47X1q', 'USUARIO', 'SI', NULL,NULL, NULL);
 
 --
 -- Índices para tablas volcadas
