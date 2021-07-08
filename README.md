@@ -1,7 +1,14 @@
 ## Sistema de información Administrativa para funcionarios de Clinica (Servicios de Urgencia y Admisión)
+Este, fue un sistema hecho en los tiempos libres, mediante el editor de archivos de cpanel, debido a no tener mas accesos en el lugar.
+Los cambios que se hacían, eran en "producción", pero fue un sistema sólo para uso interno de algunos funcionarios.
 
+## El sistema, que es?
 
-## Learning Laravel
+En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros.
+
+La idea, era tener un accceso directo a varias partes, así como:
+
+- **Valores Imageonología** Como lo dice el nombre
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
