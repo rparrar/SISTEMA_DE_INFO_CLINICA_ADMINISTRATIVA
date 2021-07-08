@@ -85,4 +85,7 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber segu
     php artisan key:generate => para generar llave de encriptación.
     php artisan serve => para desplegar servidor de pruebas.
 ```
-** Todos estos pasos los acabo de probar y me funcionaron siguiendo este mismo "tutorial".
+* ** Todos estos pasos los acabo de probar y me funcionaron siguiendo este mismo "tutorial"**
+
+
+⌨️ con el ❤️ por [Roberto Parra](https://www.rpi.cl) 😊
