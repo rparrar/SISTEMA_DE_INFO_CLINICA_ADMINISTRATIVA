@@ -8,6 +8,9 @@ El sistema, fue escrito con las siguientes tecnologías:
 
 * [Php] - Lenguaje principal
 * [Laravel] Framework php
+* [Html](#) - Usado para generar RSS
+
+
 En esencia, el sistema solamente es una colección de CRUDs, que permitía acceder a cierta información utilizada en el día a día, de unidades como urgencia, admisión, toma de muestras, imageonología, entre otros.
 
 La idea, era tener un accceso directo a varias partes, así como:
