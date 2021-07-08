@@ -9,7 +9,8 @@ El sistema, fue escrito con las siguientes tecnologías:
 * [Php] - Lenguaje principal
 * [Laravel] Framework php
 * [Html](#) - Usado para generar RSS
-- **[PHP](#)**
+- **[PHP](#)** alguna cosa
+- **[PHP](#)** otra cosa
 
 
 
