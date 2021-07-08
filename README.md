@@ -55,5 +55,10 @@ $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.gi
     - npm run dev
 3 - Copiar archivo .env.example y dejar un nuevo archivo .env
 4 - Crear una base de datos en tu entorno (phpmyadmin, etc, debe ser mysql).
-5 - Importar en tu base de datos, el contenido de archivo tablas.sql (en raiz del proyecto).
+5 - Importar en tu base de datos, el contenido de archivo info.sql (en raiz del proyecto).
+    Se importarán 2 usuarios, 1  principal = admin = admin@admin.com = clave = 123456, con permisos de admin
+    y uno "usuario" user@user.com CLAVE = 123456", se importa por el info.sql
+
+    el  usuario "usuario" se encontrará bloqueado sin acceso, puedes probar logueando como el, y luego cambiar su parametro "activo" por SI en phpmyadmin.
+    
 ```
