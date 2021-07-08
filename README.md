@@ -50,11 +50,11 @@ Puedes ocupar este código y probarlo, cambiarlo o potenciarlo, a tu comodidad, 
 
 ## Si quieres probar este sistema ⚙️
 
-Si quieres probar este sistema, y verlo como una base, o potenciarlo, tienes que seguir los siguientes pasos:
+Si quieres probar este sistema, y verlo como una base, o potenciarlo, deber seguir los siguientes pasos:
 
 
 ```
-1 - Clonar este repositorio.
+1 - Clonar o descargar este repositorio.
     - $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.git
 ```
 ```
@@ -62,6 +62,7 @@ Si quieres probar este sistema, y verlo como una base, o potenciarlo, tienes que
     - composer install
     - npm install 
     - npm run dev
+```
 ```
 3 - Crear archivo .env, puedes basarte en el .env.example
     - configurar las variables de inicio (base de datos, usuario, password).
