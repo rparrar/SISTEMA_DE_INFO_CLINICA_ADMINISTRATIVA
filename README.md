@@ -1,5 +1,6 @@
 ## Sistema de información Administrativa para funcionarios de Clinica (Servicios de Urgencia y Admisión)
-Este, fue un sistema hecho en los tiempos libres, mediante el editor de archivos de cpanel, debido a no tener mas accesos en el lugar.
+Este Sistemam fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
+Está escrito en php, con ayuda del framework LARAVEL, con un poco de JS, CSS mediante Bootstrap, y un par de templates bajadas de internet.
 Los cambios que se hacían, eran en "producción", pero fue un sistema sólo para uso interno de algunos funcionarios.
 
 ## El sistema, que es?
@@ -8,7 +9,22 @@ En esencia, el sistema solamente es una colección de CRUDs, que permitía acced
 
 La idea, era tener un accceso directo a varias partes, así como:
 
-- **Valores Imageonología** Como lo dice el nombre
+1 - **Valores Imageonología** = Tal cual como lo dice el nombre, indica los valores de las prestaciones, con un buscador basado en Datatables.
+2 - **Valores Laboratorio** = 
+3 - **Valores Laboratorio** = 
+4 - **Valores Laboratorio** = 
+5 - **Valores Laboratorio** = 
+6 - **Valores Laboratorio** = 
+7 - **Valores Laboratorio** = 
+8 - **Valores Laboratorio** = 
+9 - **Valores Laboratorio** = 
+10 - **Valores Laboratorio** = 
+11 - **Valores Laboratorio** = 
+12 - **Valores Laboratorio** = 
+13 - **Valores Laboratorio** = 
+14 - **Valores Laboratorio** = 
+
+
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
