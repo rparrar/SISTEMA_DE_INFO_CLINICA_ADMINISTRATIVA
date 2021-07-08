@@ -19,21 +19,21 @@ En esencia, el sistema solamente es una colección de CRUDs, que permitía acced
 
 La idea, es tener un accceso directo a varias secciones, así como:
 ```
-* Valores Imageonología = Muestra los valores de las prestaciones de imageonología.
-* Valores Laboratorio   = Muestra los valores de las prestaciones de toma de muestras.
-* Valores dia cama      = Muestra los valores de los día cama para hospitalizados.
-* Planes Cruz Blanca    = Muestra planes de cruz blanca, para saber si tenían convenio con la Clínica.
-* Bajar plan C. Blanca  = Para poder descargar planes, teniendo el código, descarga un PDF.
-* Códigos Integrales    = Muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
-* Doctores              = Muestra los datos de los distintos doctores. 
-* Seguros               = Acceso a descarga de los pdf con formularios de aseguradoras. 
-* Anexos                = Los anexos del lugar, divididos en torre, piso y unidades. 
-* Descargas             = Para descargar los documentos que se utilizaban en la operación diaria.
-* Comunas               = Muestra todas las comunas de chile.
-* Datos transferencias  = Genera un pdf, para entregar a los clientes cuando pedían transferir.
-* Rotativa de urgencia  = Calendario, muestra las rotaciones y los turnos de los funcionarios.
-(datos para ver desde ago - 2020 a ene - 2021)
-* Cortes de horas Extra = Mos cortes de H.E., para calcular lo que iba a sacar mes a mes.
+Valores Imageonología = Muestra los valores de las prestaciones de imageonología.
+Valores Laboratorio   = Muestra los valores de las prestaciones de toma de muestras.
+Valores dia cama      = Muestra los valores de los día cama para hospitalizados.
+Planes Cruz Blanca    = Muestra planes de cruz blanca, para saber si tenían convenio con la Clínica.
+Bajar plan C. Blanca  = Para poder descargar planes, teniendo el código, descarga un PDF.
+Códigos Integrales    = Muestra los códigos fonasa, de las prestaciones "Urgencia Integral".
+Doctores              = Muestra los datos de los distintos doctores. 
+Seguros               = Acceso a descarga de los pdf con formularios de aseguradoras. 
+Anexos                = Los anexos del lugar, divididos en torre, piso y unidades. 
+Descargas             = Para descargar los documentos que se utilizaban en la operación diaria.
+Comunas               = Muestra todas las comunas de chile.
+Datos transferencias  = Genera un pdf, para entregar a los clientes cuando pedían transferir.
+Rotativa de urgencia  = Calendario, muestra las rotaciones y los turnos de los funcionarios.
+                        (datos para ver desde ago - 2020 a ene - 2021)
+Cortes de horas Extra = Mos cortes de H.E., para calcular lo que iba a sacar mes a mes.
 ```
 
 ## Secciones y "extras" del sistema funcionando en el código 📦
