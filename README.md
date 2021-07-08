@@ -34,12 +34,19 @@ Datos transferencias  = Genera un pdf, para poder entregar a los clientes, cuand
 Rotativa de urgencia  = Implementación de fullcalendar https://fullcalendar.io/, para ir viendo las rotaciones y los turnos de los funcionarios.
 Cortes de horas Extra = Tabla mysql, + los cortes de H.E., para calcular lo que iba a sacar mes a mes.
  ```
+## Partes del sistema funcionando 📦
 
-## Partes faltantes
+
+
+## Partes del sistema faltantes por codificar ✒️
 
 El proyecto quedó inconcluso, debido a que ya no trabajo en ese lugar, por tanto obviamente no seguí con el desarrollo.
 Quedaron pendientes la parte de los CRUD completos de todas estas zonas, por que agregaba los datos directamente en phpmyadmin, no por medio de formularios.
 Y en los casos donde la información era más grande, mediante SQL a secas.
+
+## Licencia 📄
+
+Puedes ocupar este código y probarlo, cambiarlo o potenciarlo, a tu comodidad, a mi me sirvió para aprender de manera autodidacta, son con san google y san stackoverflow entre otros.
 
 ## Si quieres probar este sistema ⚙️
 
@@ -60,5 +67,5 @@ $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.gi
     y uno "usuario" user@user.com CLAVE = 123456", se importa por el info.sql
 
     el  usuario "usuario" se encontrará bloqueado sin acceso, puedes probar logueando como el, y luego cambiar su parametro "activo" por SI en phpmyadmin.
-    
+
 ```
