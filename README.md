@@ -1,6 +1,8 @@
 # Sistema de información para Clínica (Servicios de Urgencia y Admisión)
 Este Sistema, fue una idea que se me ocurrió para acortar los tiempos en mi ex trabajo, y fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
 
+<img src="https://www.rpi.cl/img/logo.png" alt="Rpi"/>
+
 Está escrito en php, con ayuda del framework LARAVEL, con un poco de JS, CSS mediante Bootstrap, y un par de templates bajadas de internet.
 Los cambios que le hacía, eran en "producción", porque era sólo para uso interno de algunos funcionarios, a quienes yo daba acceso.
 
