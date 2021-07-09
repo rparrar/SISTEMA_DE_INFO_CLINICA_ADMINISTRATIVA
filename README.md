@@ -1,6 +1,6 @@
 # Sistema de información para Clínica (Servicios de Urgencia y Admisión)
 
-img src="https://www.rpi.cl/imagenes/logo.png" alt="Rpi"/>
+<img src="https://www.rpi.cl/imagenes/logo.png" alt="Rpi"/>
 
 Este Sistema, fue una idea que se me ocurrió para acortar los tiempos en mi ex trabajo, y fue escrito en mis tiempos libres, mediante el editor de archivos de cpanel, debido a no poder instalar mas aplicaciones en los pcs. de el lugar.
 
