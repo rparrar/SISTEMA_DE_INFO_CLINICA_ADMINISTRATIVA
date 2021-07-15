@@ -12,7 +12,7 @@
             <thead>
                 <tr>
                     <th class="font-weight-bolder text-warning">ID</th>
-                    <th class="font-weight-bolder text-warning">CODIGO SAP</th>
+                    {{-- <th class="font-weight-bolder text-warning">CODIGO SAP</th> --}}
                     <th class="font-weight-bolder text-warning">TIPO DE HABITACION / CAMA</th>
                     <th class="font-weight-bolder text-warning">VALOR</th>
                 </tr>
@@ -46,7 +46,7 @@
           ajax: "{{ route('DIAS_CAMA') }}",
           columns: [
               {data: 'id'},
-              {data: 'cod_sap'},
+            //   {data: 'cod_sap'},
               {data: 'descripcion'},
               {data: 'valor', render: $.fn.dataTable.render.number('.', ',', 0, '$') },
           ]
@@ -64,6 +64,6 @@
     })
    @endif
 </script>
-  
-  
+
+
 @endsection
