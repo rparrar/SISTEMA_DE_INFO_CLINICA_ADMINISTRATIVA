@@ -77,7 +77,7 @@ $ git clone https://github.com/rparrar/SISTEMA_DE_INFO_CLINICA_ADMINISTRATIVA.gi
 ```
 2 - Actualizar componentes de laravel y node (dentro de la carpeta del repositorio).
 ```
-composer install
+composer update
 npm install 
 npm run dev
 ```
